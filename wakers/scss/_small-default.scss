@@ -1,0 +1,327 @@
+/* Colours
+
+footer : #bbbdbf
+body: #ffffff
+
+
+*/
+
+
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
+/*  apply a natural box layout model to all elements  */
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+// Styling for the body of the document
+
+body {}
+
+
+// Styling for the header of the document
+
+header {
+    background-color: $primaryColor;
+    color: $secondaryColor;
+
+
+}
+/* Main body styling */
+
+.body {
+    font-family: 'Istok Web', sans-serif;
+    background: #ffffff;
+}
+
+.icon{
+    height: 100px;
+    width: 100px;
+}
+
+h1 {
+  padding-top: 3%;
+  font-size: xx-large;
+  font-weight: bolder;
+}
+
+h4 {
+  padding-bottom: 2%;
+}
+
+/* ---------- Navbar ---------- */
+
+.menu {
+  background: $backgroundColor;
+}
+
+
+.dropdown-menu-item-color-active {
+color: #00a261;
+
+}
+.menu li {
+    background:  #ffffff;
+  }
+
+.top-bar {
+  background: #ffffff;
+  padding-right: 10%;
+}
+
+.menu-text {
+
+  background: #ffffff;
+  color: black;
+  
+
+}
+
+
+.top-menu {
+  background: #ffffff;
+}
+
+.menu vertical {
+  background: #ffffff;
+}
+
+
+
+/* footer */
+
+#footer-left {
+  padding-left: 15%;  
+  color: #ffffff;
+  padding-top: 2%;
+  background: #bbbdbf;
+  color: #ffffff;
+    }
+
+#footer-right {
+  background: #bbbdbf;
+  padding-top: 10%;
+  padding-left: 15%;  
+  padding-bottom: .5%;
+   }
+
+
+#footer-right h2{
+  font-size: 20px;
+  color: #ffffff;
+  padding-bottom: 1px ;
+}
+
+#footer-right h1{
+  font-size: 30px;
+  color: #ffffff;
+  padding-bottom: 0.5%;
+}
+
+#footer-right  {
+  color: #ccc;
+}
+
+
+  .foot li {
+    background: #bbbdbf;
+  }
+
+  .button {
+    width: 100%;
+    background: #00a261;
+  }
+
+  .success {
+    background: red;
+  }
+
+
+  .small {
+    background: #bbbdbf;
+  }
+
+  .breadcrumbs {
+  
+    color: black;
+  }
+
+   .contact {
+    padding-left: 16%;
+    background: #bbbdbf;
+
+   }
+
+   .social {
+    padding-left: 16%;
+    background: #bbbdbf;
+
+   }
+
+
+    /* ---------- Card---------- */
+
+
+   .card {
+     border: $backgroundColor;
+       }
+
+  .card-img {
+      padding-top: 4%;
+      padding-bottom: 5%;
+      height: 300px;
+      width: 300px;
+    }
+
+.card h4 {
+  padding-bottom: 6%;
+  padding-top: 6%;
+  font-size: xx-large;
+  font-weight: bolder;
+}
+
+ p{
+
+  font-size: 15pt;
+  
+ }
+
+ .card-section {
+   text-align: left;
+ }
+  
+  
+   /* ---------- Links ---------- */
+
+   a:link {
+       color: black;
+   }
+
+   a:visited { 
+       color: black;
+   }
+
+  /* visited link */
+  a:visited {
+    color: black;
+  }
+  /* mouse over link */
+  a:hover {
+    color: #ccc;
+  }
+  /* selected link */
+  a:active {
+    color: #ccc;
+  }
+
+/* ---------- Slider ---------- */
+
+  .ecommerce-product-slider {
+    .orbit-previous,
+    .orbit-next {
+      color: $medium-gray;
+    }
+  
+    .orbit-bullets button {
+      height: 0.65rem;
+      width: 0.65rem;
+    }
+  
+    .product-card {
+      background-color: $white;
+      border: 1px solid $light-gray;
+      padding: 1rem;
+      margin-bottom: 1.5rem;  
+    }
+  
+    .product-card-thumbnail {
+      display: block;
+      position: relative;
+    }
+  
+    .product-card-title {
+      font-family: 'Open sans', sans-serif;
+      font-size: 0.9rem;
+      font-weight: 600;
+      line-height: 1.45rem;
+      margin-top: 1rem;
+      margin-bottom: 0;
+    }
+  
+    .product-card-desc {
+      color: $dark-gray;
+      display: block;
+      font-family: 'Open sans', sans-serif;
+      font-size: 0.85rem;
+    }
+  
+    .product-card-price {
+      color: darken($dark-gray,30%);
+      display: inline-block;
+      font-size: 0.85rem;
+      font-weight: 600;
+      margin-top: 0.8rem;
+    }
+  
+    .product-card-sale {
+      color: $medium-gray;
+      display: inline-block;
+      font-size: 0.85rem;
+      margin-left: 0.3rem;
+      text-decoration: line-through;
+    }
+  
+    .product-card-colors {
+      display: block;
+      margin-top: 0.8rem;
+    }
+  
+    .product-card-color-option {
+      display: inline-block;
+      height: 25px;
+      width: 25px;
+    }
+  }
+  
+  #card-img {
+    width: 50%;
+    padding-left: 9%;
+  }
+  
+  #card-text {
+    text-align: left;
+    font-size: 18px;
+    padding-bottom: 3%;
+  }
+
+  /* Footer */
+
+.footer-section {
+    padding-top: 20%;
+    background: backgroundColor;
+}
+
+#footer-text{
+    color: $white;
+    padding-top: 6%;
+}
+
+#footer-heading1 {
+    color: $white;
+    font-size: 35px;
+}
+
+#footer-list-left {
+    padding-left: 25%;
+    font-size: 15px;
+}
+
+#footer-list-right {
+    padding-left: 25%;
+}
