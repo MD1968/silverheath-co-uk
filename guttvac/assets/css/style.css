@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Lato:wght@300&display=swap');
+
+/* I am going to set serious variables here so later if changes are required we can centrally make all changes */
+:root {
+    --web-primary-bg-color-theme:#0a354e !important;
+    --primary-font-color:#fff!important;
+    --primary-font-family:'Lato';
+    --secondary-font-family:'Abel';
+  }
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: var(--primary-font-family);
+}
+/*  #############################################################
+                        Stand Alone Classes
+    ##############################################################
+ */ 
+ .primary-background-color{
+     background: var(--web-primary-bg-color-theme);   
+ }
+ .hr-styling{
+    height: 1px !important;
+    background-color: white;
+ }
+ .star-gold-color{
+     color: gold;
+ }
+ .f-weight-900{
+    font-weight: 900;
+ }
+ .footer-icons-width{
+    width: 50px !important;
+ }
+ .half-screen-height{
+    height: 50vh !important;
+    }
+
+
+/*  #############################################################
+            Header Section All NAVBAR CSS Classes are here 
+    ##############################################################
+ */ 
+
+.navbar {
+    background: var(--web-primary-bg-color-theme);    
+}
+.navbar-container{
+    align-content: center!important;
+    text-align: center!important;
+    justify-content: left!important;
+}
+
+.navbar-brand{
+    color: var(--primary-font-color);
+}
+
+#navbarText > ul > li > a{
+    color: var(--primary-font-color);
+}
+.navbar-toggler{
+    border-radius: 0 !important;
+    border: 1px solid  white !important;
+}
+.active{
+    border-bottom: 1px solid;
+}
+.opacity-01{
+    opacity: 0.1;
+}
+
+/*  #############################################################
+            Hero Section Contianer Is here -- 1st Section
+    ##############################################################
+ */ 
+.index-hero-container {
+    height: 100vh;
+    background: url('../media/spec+01-1920w.webp') no-repeat bottom right fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+}
+.hero-section-main-h1-heading{
+    color: white;
+    font-weight: 700;
+    font-family: var(--secondary-font-family);
+}
+#hero-section > div > div > div > h2{
+    color: white;
+    font-family: var(--secondary-font-family);
+    
+}
+/* This class is added so text get more visible*/
+.hero-section-text-background-overlay{
+    background-color:rgba(0, 0, 0, 0.4);
+}
+.background-overlay-for-image-inside-herosection{
+    background-color:rgba(199, 199, 199, 20%);
+}
+.lg-img-size-radius{
+    height: 50px;
+    border-radius: 50%;
+}
+/*  #############################################################
+        Info and Customer Reviews Section -- 2nd Section
+    ##############################################################
+ */ 
+
+/*
+#####################################################################
+                Footer Section -- 4th Section
+#####################################################################
+*/ 
+.footer-background{
+    background-color: #313131;
+}
+
+/*
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                                            Media Queries
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+*/ 
+ @media (max-width: 575.98px) { 
+    .media-mobile-font-size{
+        font-size: 16px !important;
+    }
+    .media-mobile-image-size{
+        height: 30px;
+    }
+    .h-100-on-mobile-screen{
+        height: 90% !important;
+    }
+ }
+
+ @include media-breakpoint-down(md) { 
+     
+  }
+ 
